@@ -1,0 +1,8 @@
+{
+    "StartInd": "interval start index in the raw data file",
+    "EndInd": "interval end index in the raw data file",
+    "SleepStage": {
+        "Description": "Sleep stage, standars ones are: N2, N3, REM, Awake, but there can be other comments"
+    },
+    "RunNb": "Gives the relations between runs and intervals"
+}
