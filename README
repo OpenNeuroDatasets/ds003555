@@ -1,18 +1,14 @@
-# Dataset of neurons and intracranial EEG from human amygdala during aversive dynamic visual stimulation
+# Dataset of EEG recordings containing HFO markings for 30 pediatric patients with epilepsy 
 
 ## Summary
-We present an electrophysiological dataset collected from the amygdalae of nine subjects attending a visual dynamic stimulation of emotional aversive content. The subjects were patients affected by epilepsy who underwent preoperative invasive monitoring in the mesial temporal lobe. Subjects were presented with dynamic visual sequences of fearful faces (aversive condition), interleaved with sequences of neutral landscapes (neutral condition).
+High-frequency oscillations in scalp EEG are promising non-invasive biomarkers of epileptogenicity. However, it is unclear how high-frequency oscillations are impacted by age in the pediatric population. 
+We recorded and processed the first 3 hours of sleep EEG data in 30 children and adolescents with focal or generalized epilepsy. We used an automated and clinically validated high-frequency oscillation detector to determine ripple rates (80-250 Hz) in bipolar channels. The software for the detection of HFOs is freely available at the GitHub repository (https://github.com/ZurichNCH/Automatic-High-Frequency-Oscillation-Detector). Furthermore HFO markings are also added in this database for the selected N3 intervals.
 
-We provide the recordings of intracranial EEG (iEEG) and metadata related to the task, subjects, sessions and electrodes in the BIDS standard.
-
-We also provide a more extended version of the dataset that includes neuronal spike times and waveforms in the NIX standard under the folder "bidsignore/data_NIX". This extended dataset is also available in G-Node at https://gin.g-node.org/USZ_NCH/Human_Amygdala_MUA_sEEG_FearVideo/.
-
-This dataset allows the investigation of amygdalar response to dynamic aversive stimuli at multiple spatial scales, from the macroscopic EEG to the neuronal firing in the human brain.
 
 ## Repository structure
 
 ### Main directory (hfo/)
-Contains metadata files in the BIDS standard about the participants and the study. Folders are wxplained below.
+Contains metadata files in the BIDS standard about the participants and the study. Folders are explained below.
 
 ### Subfolders
 * hfo/sub-**/
