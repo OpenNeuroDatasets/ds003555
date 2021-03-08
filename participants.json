@@ -13,7 +13,7 @@
     "pathology": {
         "Description": "clinical diagnosis of the patient"
     },
-    "implanted_electrodes": {
+    "eeg_montage": {
         "Description": "electrodes arrangements"
     }
 }
