@@ -1,4 +1,4 @@
-participant_id	age	sex	pathology	implanted_electrodes
+participant_id	age	sex	pathology	eeg_montage
 sub-01	5.6	f	bilateral perinatal ischemic lesions with left predominance	10-20 system
 sub-02	1.6	f	genetic: DMN1 mutation	10-20 system
 sub-03	4.8	m	(radiologic suspicion of) FCD	10-20 system
